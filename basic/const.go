@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	const LENGTH int = 10
-	const WIDTH int = 5
+	const length int = 10
+	const width int = 5
 	var area int
 
-	area = LENGTH * WIDTH
+	area = length * width
 	fmt.Println("value of area : ", area)
 }
